@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  list-style-type: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900;1000&family=Nunito:wght@400;500;600;700;800;900;1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
+}
+p,
+button,
+span,
+a,
+input,
+label,
+option,
+li {
+  font-family: "Roboto", sans-serif;
+}
+button {
+  @apply bg-[#7e47a8] text-white p-2 rounded-md text-base font-semibold;
+}
+a.active {
+  color: #7e47a8;
+  font-weight: bold;
+}
+
+/*h2 {
+  @apply text-4xl font-bold;
+}
+*/
+li.react-multi-carousel-item.carousel-item-padding-40-px {
+  padding: 1rem !important;
+}
+ul.react-multi-carousel-track {
+  justify-content: center !important;
+}
